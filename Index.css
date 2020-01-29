@@ -49,6 +49,7 @@ head{
 .container {
   position: relative;
   width: 25%;
+    float: left;
 }
 
 .image {
