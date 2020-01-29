@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="ProfileIcon.png">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=0.3">
+        <title>Profile-Kartikeya Agarwal</title>
+        <link href="Index.css"  rel="stylesheet">
+    </head>
+    <body>
+        <div class="head">
+            <h1 class="heading">Kartikeya Agarwal</h1>
+            <div class="floats">
+            <div class="container">
+                <img src="SecProfilePic.jpg" alt="Avatar" class="image" style="width:100%">
+                <div class="middle">
+                    <div class="text">Kartikeya Agarwal</div>
+                </div>
+            </div>
+            <div class="prf">
+                <img src="LinkedIn.jpg"  class="icons">
+                <a href="https://www.linkedin.com/in/kartikeya-agarwal-119522111/" target="_blank" class="link">LinkedIn</a>
+                <img src="GitIcon.png" class="icons">
+                <a href="https://github.com/kartikeya72001" target="_blank" class="link">GitHub</a>
+                <img src="InstaIcon.png" class="icons">
+                <a href="https://instagram.com/kartikeya72001? igshid=le9alwcv17sf" target="_blank" class="link">kartikeya72001</a>
+            </div>
+            </div>
+        </div>
+        <br><br>
+
+
+<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">About Me</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" >Fervor</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Programming</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">Contact</button>
+
+<div id="Home" class="tabcontent">
+  <h2>About</h2>
+  <p>A first year student aspiring to achieve something great someday. Currently studing Computer<br> Engineering from Netaji Subhas Univeristy of Technology, Delhi. Love working on projects and taking<br> part in debates. Trying to find ways to improve and challenge myself in various fields.</p>
+</div>
+
+<div id="News" class="tabcontent">
+  <h2>Frevor</h2>
+  <p>Listening to music has always been my go to activity for all occasions. Music gives me the<br>needed refuge whenever I feel like my head is spinning and I just want to shut out everything around me.<br> The good thing about music is that there is music for every occasion and feeling.<br><br>I use my camera to capture and document moments in life, through visual story. My photos help bring<br> attention to the little things that often get overlooked. Almost like collaborating thoughts,<br>photography shows people new angles and perspectives on life. I generally like to capture the marvels of<br>life. You can visit my work <a href="https://instagram.com/kartikeya72001? igshid=le9alwcv17sf" target="_blank" class="links">here</a>.<br><br>My Other favourite activity is swimming. I am a state level swimmer and have won quite a number of laurels.<br>I believe that swimming is the best exercise and makes me feel like I am in a whole new world altogether.</p> 
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h2>Programming</h2>
+  <p>"Keep Calm and show me your Source code"<br><br>I’ve finally cracked the code — I love programming because I love abstractions.<br>It’s the same reason I love analyzing code, reading about startups, and more recently,<br>studying number theory. Also if there is anything up on the Internet<br>that I believe is new or difficult, I try to take it up as a challenge. My Git profile is followed <a href="https://github.com/kartikeya72001" class="links" target="_blank">here</a>.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h2>Contact</h2>
+  <p>Who am I and What I do Msut be clear now, tempted, Contact information is below :-<br>Email: <a href="mailto:kartikeya72001@gmail.com" class="links">kartikeya72001@gmail.com</a> <br>Instagram:
+    <a href="https://instagram.com/kartikeya72001? igshid=le9alwcv17sf "class="links" target="_blank">kartikeya72001</a><br>GitHub: <a href="https://github.com/kartikeya72001" class="links" target="_blank">kartikeya72001</a></p>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+        
+        
+        
+    </body>
+</html>
