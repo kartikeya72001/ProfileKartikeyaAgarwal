@@ -147,8 +147,8 @@ head{
     box-shadow: 4px 4px 4px 4px rgba(100,100,100,0.3);
     background-color: blanchedalmond;
     border-radius: 18px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .des2{
     text-align: center;
@@ -158,8 +158,8 @@ head{
     box-shadow: 4px 4px 4px 4px rgba(100,100,100,0.3);
     background-color:rgba(188,242,107,1);
     border-radius: 18px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .des3{
     text-align: center;
@@ -169,8 +169,8 @@ head{
     box-shadow: 4px 4px 4px 4px rgba(100,100,100,0.3);
     background-color:rgba(223,155,255,10);
     border-radius: 18px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #Home {background-color: red;}
