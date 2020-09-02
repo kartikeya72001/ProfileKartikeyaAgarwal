@@ -1,5 +1,5 @@
 html{
-    background-color: black;
+    background-color:antiquewhite;
     scroll-behavior:smooth;
 }
 body {
@@ -130,7 +130,7 @@ head{
     margin-left:25%;
     margin-right:25%;
     text-align: center;
-    background-color: rgba(173,216,230,0.8);
+    background-color: deepskyblue;
     border-radius: 15px;
     text-decoration: none;
     color:black;
