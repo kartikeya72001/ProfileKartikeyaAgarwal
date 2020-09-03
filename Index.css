@@ -161,7 +161,18 @@ head{
     border:3px solid darkblue;
     font-size: 25px;
     box-shadow: 4px 4px 4px 4px rgba(100,100,100,0.3);
-    background-color:rgba(188,242,107,1);
+    background-color:rgba(188,242,107,0.8);
+    border-radius: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.des5{
+    text-align: center;
+    padding: 6%;
+    border:3px solid darkblue;
+    font-size: 25px;
+    box-shadow: 4px 4px 4px 4px rgba(100,100,100,0.3);
+    background-color:rgba(0,255,255,0.5);
     border-radius: 18px;
     margin-left: 20%;
     margin-right: 20%;
