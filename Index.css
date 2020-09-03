@@ -16,12 +16,13 @@ head{
     float: left;
 }
 .head{
-    background-image: url(HeaderBackground.jpg);
+    background-image: url(background-image-html.jpg);
     padding: 1%;
     height: 700px;
     border-radius: 8px;
 }
 .heading{
+    color: white;
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     font-size: 600%;
@@ -37,7 +38,7 @@ head{
 }
 .link{
     text-decoration: none;
-    color: black;
+    color: white;
     background-color:dimgray;
     border-radius: 5px; 
 }
