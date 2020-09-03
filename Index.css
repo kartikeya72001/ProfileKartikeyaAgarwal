@@ -125,6 +125,9 @@ head{
   height: 100%;
 }
 .Tab{
+    position: -webkit-sticky;
+    top:0;
+    position: sticky;
     font-family: fantasy;
     font-weight:lighter;
     font-size: 35px;
